@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="48sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="168dp"
+        android:gravity="center"
+        android:paddingLeft="4sp"
+        android:paddingRight="4sp"
+        android:paddingTop="4sp"
+        android:paddingBottom="4sp"
+        android:text="Click Here to Scan"
+        android:textColor="#4169E1"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/ic_scan"
+        android:src="@drawable/ic_scan" />
+
+</RelativeLayout>

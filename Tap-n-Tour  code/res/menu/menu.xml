@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item
+        android:id="@+id/menu_previous"
+        android:icon="@drawable/ic_action_goleft"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title=""/>
+    
+    <item
+        android:id="@+id/menu_uploads"
+        android:icon="@drawable/ic_action_warning"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title=""/>
+    
+    <item
+        android:id="@+id/menu_record"
+        android:icon="@drawable/ic_action_record"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title=""/>
+    
+     <item
+        android:id="@+id/menu_action"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title=""/>
+     
+    
+     
+
+</menu> 

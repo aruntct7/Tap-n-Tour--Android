@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tap-n-Tour</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="eventtype">Event Type</string>
+    <string name="phototab">Photos Here</string>
+    <string name="audiotab">Audios Here</string>
+    <string name="videotab">Videos Here</string>
+    <string name="photo">Photos</string>    
+    <string name="audio">Audios</string>    
+    <string name="video">Videos</string>
+    <string name="pendingtasks">Pending Tasks</string>
+    <string name="pendinguploads">Pending Uploads</string>
+    <string name="pendinggps">GPS</string>
+    
+    <string name="tasks">Tasks</string>    
+    <string name="uploads">Uploads</string>    
+    <string name="gps">GPS</string>
+    
+    <string name="hint_status">Select Status</string>
+    
+
+     <string-array name="array_status">
+        <item>Cannot Do</item>
+        <item>Equipment Reqd</item>
+        <item>Workers Needed</item>
+       
+    </string-array>
+</resources>
